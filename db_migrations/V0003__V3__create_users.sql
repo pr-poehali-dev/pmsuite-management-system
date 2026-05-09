@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS t_p49497665_pmsuite_management_s.users (id SERIAL PRIMARY KEY, name VARCHAR(200) NOT NULL, role VARCHAR(100) DEFAULT 'Разработчик', department VARCHAR(100) DEFAULT 'ИТ-отдел', status VARCHAR(20) DEFAULT 'active', initials VARCHAR(5), created_at TIMESTAMP DEFAULT NOW());

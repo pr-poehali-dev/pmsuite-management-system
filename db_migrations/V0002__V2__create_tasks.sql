@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS t_p49497665_pmsuite_management_s.tasks (id SERIAL PRIMARY KEY, title VARCHAR(300) NOT NULL, project_name VARCHAR(300), assignee VARCHAR(200), status VARCHAR(20) DEFAULT 'pending', priority VARCHAR(20) DEFAULT 'medium', due_date VARCHAR(50), created_at TIMESTAMP DEFAULT NOW(), updated_at TIMESTAMP DEFAULT NOW());

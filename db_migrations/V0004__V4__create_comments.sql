@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS t_p49497665_pmsuite_management_s.comments (id SERIAL PRIMARY KEY, author VARCHAR(200) NOT NULL, initials VARCHAR(5), project VARCHAR(300), task_name VARCHAR(300), text TEXT NOT NULL, created_at TIMESTAMP DEFAULT NOW());
